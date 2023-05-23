@@ -16,3 +16,9 @@ aligned_seq1, aligned_seq2, score, start, end = best_alignment
 print("Sequence 1:", aligned_seq1)
 print("Sequence 2:", aligned_seq2)
 print("BLOSUM62 score:", score)
+
+# Human and Mouse: Alignment score - 683, Identical amino acids - 83.45%
+# Human and Cat: Alignment score - 660, Identical amino acids - 82.13%
+# Mouse and Cat: Alignment score - 667, Identical amino acids - 81.10%
+# the human and mouse sequences are most closely related
+# By comparing the ACE2 sequences of different species, researchers can investigate how potential genetic differences may impact susceptibility to COVID-19 and inform drug and vaccine development.
